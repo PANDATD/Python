@@ -31,32 +31,32 @@ def surface_area_sphere(radius: float) -> float:
     return 4 * pi * pow(radius, 2)
 
 
-def area_rectangle(length, width):
+def area_rectangle(length: float, width: float) -> float:
     """
     Calculate the area of a rectangle
 
-    >>> area_rectangle(10,20)
-    200
+    >>> area_rectangle(10.2,20.65)
+    210.63
     """
     return length * width
 
 
-def area_square(side_length):
+def area_square(side_length:float) -> float:
     """
     Calculate the area of a square
 
-    >>> area_square(10)
-    100
+    >>> area_square(10.0)
+    100.0
     """
     return pow(side_length, 2)
 
 
-def area_triangle(base, height):
+def area_triangle(base: float, height:float) -> float:
     """
     Calculate the area of a triangle
 
-    >>> area_triangle(10,10)
-    50.0
+    >>> area_triangle(10.0,10.20)
+    51.0
     """
     return (base * height) / 2
 
